@@ -1,0 +1,13 @@
+User Management:
+    Admin: Full control over user management, including CRUD operations for managers and guests.
+    Manager: Capability to manage users (including themselves) and rooms within their assigned scope.
+    User: Basic CRUD operations for managing their own profile and accessing room availability information.
+
+Room Management:
+        CRUD operations for managing room inventory, including room types, availability, and pricing.
+    Ability to check room availability and make reservations based on guest preferences.
+
+Authorization and Permissions:
+    Admin: Authorized to perform CRUD operations on all entities, including managers, users, and rooms.
+    Manager: Granted permissions to manage users (including themselves) and rooms within their designated area.
+    User: Limited permissions to manage their own profile and access room availability information.
